@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Viralworks</title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+  <link rel="stylesheet" type="text/css" href="fonts/icon/all.css"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap">
+  <link rel="stylesheet" type="text/css" href="plugins/css/lightslider.css"/>
+  <link rel="stylesheet" type="text/css" href="scss/style.css"/>
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="plugins/js/lightslider.js"></script>
+  
+  <script>
+      $(document).ready(function() {
+          var autoplaySlider = $('#content-slider').lightSlider({
+              item: 5,
+              auto:true,
+              loop:true,
+              pauseOnHover: true,
+              onBeforeSlide: function (el) {
+                  $('#current').text(el.getCurrentSlideCount());
+              } 
+          });
+          $('#total').text(autoplaySlider.getTotalSlideCount());
+      });
+  </script>
+</head>
+<body>
+  <div class="block-1">
+    <div class="menu">
+      <div class="container">
+        <div class="nav">
+          <ul>
+            <li><a>brand</a href="https://www.facebook.com/tuyen.stacks"></li>
+            <li class="lmar-menu"><a href="https://www.facebook.com/tuyen.stacks">influencer</a></li>
+            <li class="lmar-menu"><a href="https://www.facebook.com/tuyen.stacks">blog</a></li>
+            <li class="lmar-menu"><a href="https://www.facebook.com/tuyen.stacks">liên hệ</a></li>
+            <li class="lmar-menu"><a href="https://www.facebook.com/tuyen.stacks">đăng nhập</a></li>
+            <li class="sigin"><a href="https://www.facebook.com/tuyen.stacks">đăng kí</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <img class="logo" src="images/logo_full.svg" alt="logo"/>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="text-block-1">
+            <h1 class="text-h1">ViralWorks - Dẫn đầu giải pháp <br> Marketing cho Gen Z</h1>
+            <p class="text-p">Với sự thấu hiểu Gen Z cùng nền tảng công nghệ thông minh,<br>
+              ViralWorks sẽ tư vấn và cung cấp những chiến lược Marketing giúp<br>
+              thương hiệu truyền tải thông điệp thành công. </p>
+            <div class="bor-btn">
+              <button type="submit" class="btn-block-1"><a>tìm hiểu thêm</a></button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="socical">
+            <img class="phone" src="images/img_7.png" alt="phone"/>
+            <span>Follow us: </span>
+            <a><img src="images/fb_icon.svg" alt="icon-fb"></a>
+            <a><img src="images/in_icon.svg" alt="icon-in"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="block-2">
+    <div class="container">
+      <h3>Bạn đang muốn...</h3>
+      <div class="text-block-2">
+        <div class="block-left-1">
+          <p class="color-1">
+            Tiếp cận Gen Z <br> nhanh chóng
+          </p>
+          <div class="bor-left"></div>
+        </div>
+        <div class="block-right-2">
+          <div class="bor-right"></div>
+          <p class="color-2">
+            Tìm kiếm chiến lược <br> Marketing khác biệt
+          </p>
+        </div>
+        <div class="block-left-3">
+          <p class="color-3 fix">
+            Tăng nhận thức <br> về thương hiệu
+          </p>
+          <div class="bor-left"></div>
+        </div>
+        <div class="block-right-4">
+          <div class="bor-right"></div>
+          <p class="color-4">
+            Quản lý mạng xã hội <br> chuyên nghiệp
+          </p>
+        </div>
+      </div>
+      <img src="images/img_4.png" alt="phone-2"/>
+    </div>
+  </div>
+  <div class="block-3">
+    <div class="container">
+      <h3>Chúng tôi hỗ trợ nhãn hàng</h3>
+      <div class="bor">
+        <div class="bor-mid"></div>
+        <div class="bor-mid"></div>
+      </div>
+      <div class="b3-item">
+          <img src="images/block-3-item-1.svg" alt="home_promotion"/>
+          <p class="b3-p-1">Phát triển thương hiệu trên mạng xã hội</p>
+      </div>
+      <div class="b3-item">
+          <img src="images/block-3-item-2.svg" alt="home_promotion"/>
+          <p class="b3-p-2">Xây dựng chiến lược Content Marketing</p>
+      </div>
+      <div class="b3-item">
+          <img src="images/block-3-item-3.svg" alt="home_promotion"/>
+          <p class="b3-p-3">Tư vấn, triển khai chiến dịch Influencer Marketing</p>
+      </div>
+      <div class="b3-item">
+          <img src="images/block-3-item-4.svg" alt="home_promotion"/>
+          <p class="b3-p-4">Truyền thông cho Viral Video, TVC, MV</p>
+      </div>
+    </div>
+  </div>
+  <div class="block-4">
+    <div class="container">
+      <img src="images/home_shape_4.svg" alt="shape"/>
+      <h3>Hãy để ViralWorks đồng hành cùng bạn!</h3>
+    </div>
+  </div>
+  <div class="block-5">
+    <div class="container">
+      <img src="images/home_phone_4.svg" alt="home-phone-4"></img>
+      <div class="b5-text">
+        <div class="b5-btn">
+          <h5>Liên hệ ngay với chúng tôi để được tư vấn</h5>
+          <div class="bor-btn">
+            <button type="submit" class="btn-block-1"><a>liên hệ ngay</a></button>
+          </div>
+          <a>tìm hiểu thêm</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="block-6">
+    <div class="container">
+      <h3>Các đối tác đã đồng hành cùng ViralWorks</h3>
+      <ul id="content-slider" class="content-slider">
+        <li>
+          <img src="images/brand_faceu.svg" alt="brand_faceu"/>
+        </li>
+        <li>
+          <img src="images/brand_samsung.svg" alt="brand_samsung"/>
+        </li>
+        <li>
+          <img src="images/brand_tiktok.svg" alt="brand_tiktok"/>
+        </li>
+        <li>
+          <img src="images/brand_ulike.svg" alt="brand_ulike"/>
+        </li>
+        <li>
+          <img src="images/brand_vinpearl.svg" alt="brand_vinpearl"/>
+        </li>
+        <li>
+          <img src="images/brand_tiktok.svg" alt="brand_tiktok"/>
+        </li>
+      </ul>
+    </div>	
+  </div>
+  <div class="block-7">
+    <div class="container">
+      <ul>
+        <li><a>influencer</a></li>
+        <li><a>brand</a></li>
+        <li><a>blog</a></li>
+        <li><a>liên hệ</a></li>
+      </ul>
+      <ul>
+        <li><a>faq</a></li>
+        <li><a>về chúng tôi</a></li>
+        <li><a>tuyển dụng</a></li>
+        <li><a>điều khoản</a></li>
+      </ul>
+      <img class="b7-logo" src="images/logo_full_vertical_purple.png" alt="logo"/>
+      <h3>ViralWorks - Dẫn đầu giải pháp Marketing cho Gen Z</h3>
+      <p class="b7-text">
+        <span>support@viralworks.com</span>
+        <span> | </span>
+        <span>(+84) 901 434 147</span>
+      </p>
+      <p class="b7-text">
+        <span>Copyright© 2018 ViralWorks</span>
+        <span> | </span>
+        <span>G-07, Ground Floor, The Manor 2, 91 Nguyen Huu Canh St., Ward 22, Binh Thanh District, HCMC</span>
+      </p>
+      <select class="btn-lang">
+        <option value="vi" selected="">Tiếng Việt</option>
+        <option value="en">English</option>
+      </select>
+    </div>
+  </div>
+</body>
+</html>
+
+
+
