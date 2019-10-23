@@ -26,23 +26,52 @@
           $('#total').text(autoplaySlider.getTotalSlideCount());
       });
   </script>
+  <script>
+      // When the user scrolls down 20px from the top of the document, slide down the navbar
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
+          document.getElementById("fixed-menu").style.top = "0";
+        } else {
+          document.getElementById("fixed-menu").style.top = "-80px";
+        }
+      }
+  </script>
 </head>
 <body>
   <div class="block-1">
+    <div id="fixed-menu">
+        <div class="menu">
+          <div class="container">
+            <img class="logo fix-logo" src="images/logo_full.svg" alt="logo">
+            <div class="nav">
+              <ul>
+                <li><a>brand</a href="https://www.facebook.com/tuyen.stacks"></li>
+                <li class="lmar-menu"><a href="https://www.facebook.com/tuyen.stacks">influencer</a></li>
+                <li class="lmar-menu"><a href="https://www.facebook.com/tuyen.stacks">blog</a></li>
+                <li class="lmar-menu"><a href="https://www.facebook.com/tuyen.stacks">liên hệ</a></li>
+                <li class="lmar-menu"><a href="https://www.facebook.com/tuyen.stacks">đăng nhập</a></li>
+                <li class="sigin"><a href="https://www.facebook.com/tuyen.stacks">đăng kí</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </div>
     <div class="menu">
-      <div class="container">
-        <div class="nav">
-          <ul>
-            <li><a>brand</a href="https://www.facebook.com/tuyen.stacks"></li>
-            <li class="lmar-menu"><a href="https://www.facebook.com/tuyen.stacks">influencer</a></li>
-            <li class="lmar-menu"><a href="https://www.facebook.com/tuyen.stacks">blog</a></li>
-            <li class="lmar-menu"><a href="https://www.facebook.com/tuyen.stacks">liên hệ</a></li>
-            <li class="lmar-menu"><a href="https://www.facebook.com/tuyen.stacks">đăng nhập</a></li>
-            <li class="sigin"><a href="https://www.facebook.com/tuyen.stacks">đăng kí</a></li>
-          </ul>
+        <div class="container">
+          <div class="nav">
+            <ul>
+              <li><a>brand</a href="https://www.facebook.com/tuyen.stacks"></li>
+              <li class="lmar-menu"><a href="https://www.facebook.com/tuyen.stacks">influencer</a></li>
+              <li class="lmar-menu"><a href="https://www.facebook.com/tuyen.stacks">blog</a></li>
+              <li class="lmar-menu"><a href="https://www.facebook.com/tuyen.stacks">liên hệ</a></li>
+              <li class="lmar-menu"><a href="https://www.facebook.com/tuyen.stacks">đăng nhập</a></li>
+              <li class="sigin"><a href="https://www.facebook.com/tuyen.stacks">đăng kí</a></li>
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
     <div class="container">
       <img class="logo" src="images/logo_full.svg" alt="logo"/>
     </div>
